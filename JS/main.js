@@ -43,6 +43,8 @@ function writeCode(prefix,code,fn){
     },duration);
 }
 let code = `/*
+ * 大家好，我是吴潇，今天画一只阔爱的熊猫送给大家
+ * 希望大家开心
  * 首先给 panda 一个白色背景色吧
  */
 .preview{background: white;}
