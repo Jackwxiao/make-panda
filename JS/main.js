@@ -17,9 +17,12 @@
                 break
         }
     })
-  $('.fresh').on('click',function(e){
+    $('.fresh').on('click',function(e){
          window.location.reload(true)
        })
+    $('.fresh').on('touch',function(e){
+        window.location.reload(true)
+      })
      
 function writeCode(prefix,code,fn){
     let container = document.querySelector('#code')
