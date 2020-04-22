@@ -1,2 +1,2 @@
 # make-panda
-使用 HTML CSS jQuery 做的边写代码边出效果的动态页面
+先用CSS 画好panda，然后把生成panda 的代码动态展示出来，最后添加调速和重置功能。
