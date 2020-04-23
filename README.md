@@ -28,11 +28,12 @@
   function writeCode(prefix, code, fn){
   let container = document.querySelector('#code')
   let n =0
-  let id = setTimeout(function run(){
+  let id
+  id = setTimeout(function run(){
     n += 1
     container.innerHTML = code.substring(0,n)
     if(n < code.length){
-     setTimeout(run, duration)
+    id = setTimeout(run, duration)
     }
     else{
     fn && fn.call()
@@ -41,4 +42,17 @@
 }
   writeCode('','12344556677788FDGNHDND')
 }.call()
+
+// 调速
+switch(speed){
+case 'slow':
+duration: 200
+break
+case 'normal':
+duration: 100
+break
+case 'fast':
+duration: 10
+break
+}
 ```
