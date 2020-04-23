@@ -28,7 +28,7 @@
   function writeCode(prefix, code, fn){
   let container = document.querySelector('#code')
   let n =0
-  let id
+  let id  // 每次都记下 id
   id = setTimeout(function run(){
     n += 1
     container.innerHTML = code.substring(0,n)
@@ -56,3 +56,5 @@ duration: 10
 break
 }
 ```
+
+* 重载 window.reload()
