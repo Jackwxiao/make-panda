@@ -57,4 +57,4 @@ break
 }
 ```
 
-* 重载 window.reload()
+* 重载 window.loacation.reload(true)
